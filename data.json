@@ -1,0 +1,113 @@
+{
+  "vocabulaire": [
+    { "id": "v1", "fr": "bateau", "lb_latin": "safineh", "lb_arabic": "سفينة", "categorie": "transport" },
+    { "id": "v2", "fr": "voiture", "lb_latin": "sayara", "lb_arabic": "سيارة", "categorie": "transport" },
+    { "id": "v3", "fr": "maison", "lb_latin": "bét", "lb_arabic": "بيت", "categorie": "lieu" },
+    { "id": "v4", "fr": "eau", "lb_latin": "mayy", "lb_arabic": "مي", "categorie": "nourriture" },
+    { "id": "v5", "fr": "pain", "lb_latin": "khebz", "lb_arabic": "خبز", "categorie": "nourriture" },
+    { "id": "v6", "fr": "ami (garçon)", "lb_latin": "sadi'", "lb_arabic": "صديق", "categorie": "personnes" },
+    { "id": "v7", "fr": "amie (fille)", "lb_latin": "sadi'a", "lb_arabic": "صديقة", "categorie": "personnes" },
+    { "id": "v8", "fr": "soleil", "lb_latin": "chamss", "lb_arabic": "شمس", "categorie": "nature" },
+    { "id": "v9", "fr": "mer", "lb_latin": "bahr", "lb_arabic": "بحر", "categorie": "nature" },
+    { "id": "v10", "fr": "livre", "lb_latin": "ktéb", "lb_arabic": "كتاب", "categorie": "objet" }
+  ],
+  "phrases": [
+    { "id": "p1", "fr": "Comment ça va ?", "lb_latin": "Kifak / Kifik ?", "lb_arabic": "كيفك؟" },
+    { "id": "p2", "fr": "Je vais bien, merci.", "lb_latin": "Mniih, merci.", "lb_arabic": "منيح، مرسي." },
+    { "id": "p3", "fr": "Comment tu t'appelles ?", "lb_latin": "Chou ismak / ismik ?", "lb_arabic": "شو اسمك؟" },
+    { "id": "p4", "fr": "Je m'appelle...", "lb_latin": "Ismi...", "lb_arabic": "اسمي..." },
+    { "id": "p5", "fr": "Où habites-tu ?", "lb_latin": "Wén sekné / sekné ?", "lb_arabic": "وين ساكن؟" },
+    { "id": "p6", "fr": "Je ne comprends pas.", "lb_latin": "Mich fehem / fehmé.", "lb_arabic": "مش فاهم." },
+    { "id": "p7", "fr": "Merci beaucoup.", "lb_latin": "Yislamo.", "lb_arabic": "يسلمو." },
+    { "id": "p8", "fr": "S'il te plaît.", "lb_latin": "Men fadlak / fadlik.", "lb_arabic": "من فضلك." }
+  ],
+  "verbes": [
+    {
+      "id": "ver1",
+      "infinitif_fr": "manger",
+      "infinitif_lb_latin": "yékol",
+      "infinitif_lb_arabic": "ياكل",
+      "conjugaison": {
+        "je": "bekol",
+        "tu (m)": "btékol",
+        "tu (f)": "btékolé",
+        "il": "byékol",
+        "elle": "btékol",
+        "nous": "mnékol",
+        "vous": "btékolo",
+        "ils / elles": "byékolo"
+      }
+    },
+    {
+      "id": "ver2",
+      "infinitif_fr": "aller",
+      "infinitif_lb_latin": "yrouh",
+      "infinitif_lb_arabic": "يروح",
+      "conjugaison": {
+        "je": "berouh",
+        "tu (m)": "btrouh",
+        "tu (f)": "btrouhé",
+        "il": "byrouh",
+        "elle": "btrouh",
+        "nous": "mnrouh",
+        "vous": "btrouho",
+        "ils / elles": "byrouho"
+      }
+    },
+    {
+      "id": "ver3",
+      "infinitif_fr": "vouloir",
+      "infinitif_lb_latin": "yrid",
+      "infinitif_lb_arabic": "يريد",
+      "conjugaison": {
+        "je": "bedde",
+        "tu (m)": "biddak",
+        "tu (f)": "biddik",
+        "il": "biddo",
+        "elle": "bedda",
+        "nous": "biddna",
+        "vous": "biddkon",
+        "ils / elles": "biddon"
+      }
+    }
+  ],
+  "chiffres": [
+    { "id": "n0", "nombre": 0, "fr": "zéro", "lb_latin": "sifr", "lb_arabic": "صفر" },
+    { "id": "n1", "nombre": 1, "fr": "un", "lb_latin": "wahad", "lb_arabic": "واحد" },
+    { "id": "n2", "nombre": 2, "fr": "deux", "lb_latin": "tnén", "lb_arabic": "اتنين" },
+    { "id": "n3", "nombre": 3, "fr": "trois", "lb_latin": "tlété", "lb_arabic": "تلاتة" },
+    { "id": "n4", "nombre": 4, "fr": "quatre", "lb_latin": "arb'a", "lb_arabic": "اربعة" },
+    { "id": "n5", "nombre": 5, "fr": "cinq", "lb_latin": "khamsé", "lb_arabic": "خمسة" },
+    { "id": "n6", "nombre": 6, "fr": "six", "lb_latin": "sitté", "lb_arabic": "ستة" },
+    { "id": "n7", "nombre": 7, "fr": "sept", "lb_latin": "sab'a", "lb_arabic": "سبعة" },
+    { "id": "n8", "nombre": 8, "fr": "huit", "lb_latin": "tmén é", "lb_arabic": "تمانية" },
+    { "id": "n9", "nombre": 9, "fr": "neuf", "lb_latin": "tis'a", "lb_arabic": "تسعة" },
+    { "id": "n10", "nombre": 10, "fr": "dix", "lb_latin": "'achra", "lb_arabic": "عشرة" }
+  ],
+  "grammaire": [
+    {
+      "id": "g1",
+      "titre": "Le masculin et le féminin",
+      "explication_fr": "Beaucoup de mots changent selon qui parle ou à qui on parle. Souvent, la forme féminine ajoute un son 'é' ou 'a' à la fin.",
+      "exemple_fr": "Tu es content (à un homme) / Tu es contente (à une femme)",
+      "exemple_lb_latin": "Mabsout / Mabsouté",
+      "exemple_lb_arabic": "مبسوط / مبسوطة"
+    },
+    {
+      "id": "g2",
+      "titre": "Le présent avec 'b'",
+      "explication_fr": "Au Liban, on ajoute souvent un 'b' ou 'm' devant le verbe conjugué pour marquer le présent habituel, un peu comme une action régulière.",
+      "exemple_fr": "Je mange (tous les jours)",
+      "exemple_lb_latin": "Bekol",
+      "exemple_lb_arabic": "بوكل"
+    },
+    {
+      "id": "g3",
+      "titre": "Poser une question",
+      "explication_fr": "Le mot 'chou' veut dire 'quoi' ou 'quel/quelle' et se place souvent en début de phrase.",
+      "exemple_fr": "Quel est ton nom ?",
+      "exemple_lb_latin": "Chou ismak ?",
+      "exemple_lb_arabic": "شو اسمك؟"
+    }
+  ]
+}
