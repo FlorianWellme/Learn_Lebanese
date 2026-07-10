@@ -67,11 +67,18 @@ const sectionConfig = {
     back: (item) => `
       <span class="card-eyebrow">Conjugaison</span>
       <div class="card-arabic" style="font-size:20px;margin-bottom:4px;">${item.infinitif_lb_arabic || ''}</div>
-      <table class="conj-table">
-        ${Object.entries(item.conjugaison).map(([pronom, forme]) => `
-          <tr><td>${pronom}</td><td>${forme}</td></tr>
-        `).join('')}
-      </table>
+      ${item.conjugaison ? `
+        <table class="conj-table">
+          ${Object.entries(item.conjugaison).map(([pronom, forme]) => `
+            <tr><td>${pronom}</td><td>${forme}</td></tr>
+          `).join('')}
+        </table>
+      ` : `
+        <p class="grammar-explain">Pas encore de conjugaison complète — retiens la forme de base : <strong>${item.infinitif_lb_latin}</strong></p>
+      `}
+      ${item.passe_exemple ? `
+        <div class="card-sub" style="margin-top:8px;">Passé (exemple) : <strong style="color:var(--cedar);font-family:var(--font-mono);">${item.passe_exemple}</strong></div>
+      ` : ''}
     `,
   },
   chiffres: {
