@@ -28,43 +28,64 @@
 
   <main class="stage">
 
-    <div class="section-heading">
-      <h2 id="sectionTitle">Vocabulaire</h2>
-      <span id="counter" class="counter">1 / 1</span>
+    <!-- Écran 1 : choix du thème (mode "Thèmes" uniquement) -->
+    <div id="themePicker" class="picker">
+      <p class="picker-label">Choisis un thème</p>
+      <div id="themeGrid" class="theme-grid"></div>
     </div>
 
-    <div id="cardZone" class="card-zone">
-      <!-- La carte est injectée en JS -->
+    <!-- Écran 2 : choix du type de carte (mots / phrases / verbes / mix) -->
+    <div id="typePicker" class="picker">
+      <button id="backToThemes" class="back-link">← Changer de thème</button>
+      <p class="picker-label" id="typePickerLabel">Que veux-tu réviser ?</p>
+      <div class="type-grid">
+        <button class="type-btn" data-type="mots"><span class="nav-icon">📖</span>Mots</button>
+        <button class="type-btn" data-type="phrases"><span class="nav-icon">💬</span>Phrases</button>
+        <button class="type-btn" data-type="verbes"><span class="nav-icon">⚙️</span>Verbes</button>
+        <button class="type-btn" data-type="mix"><span class="nav-icon">🔀</span>Mix</button>
+      </div>
     </div>
 
-    <div class="controls">
-      <div id="writeZone" class="write-zone">
-        <label for="answerInput" class="write-label">Écris ta réponse en libanais</label>
-        <input type="text" id="answerInput" class="answer-input" placeholder="ex. safineh" autocomplete="off" autocapitalize="off" spellcheck="false">
+    <!-- Écran 3 : session de cartes -->
+    <div id="sessionView" class="picker">
+      <button id="backToPicker" class="back-link">← Changer</button>
+
+      <div class="section-heading">
+        <h2 id="sectionTitle">Vocabulaire</h2>
+        <span id="counter" class="counter">1 / 1</span>
       </div>
 
-      <div class="buttons-row">
-        <button id="revealBtn" class="btn btn-primary">Voir la réponse</button>
-        <button id="skipBtn" class="btn btn-ghost">Passer →</button>
+      <div id="cardZone" class="card-zone">
+        <!-- La carte est injectée en JS -->
+      </div>
+
+      <div class="controls">
+        <div id="writeZone" class="write-zone">
+          <label for="answerInput" class="write-label">Écris ta réponse en libanais</label>
+          <input type="text" id="answerInput" class="answer-input" placeholder="ex. safineh" autocomplete="off" autocapitalize="off" spellcheck="false">
+        </div>
+
+        <div class="buttons-row">
+          <button id="prevBtn" class="btn btn-ghost">← Précédent</button>
+          <button id="revealBtn" class="btn btn-primary">Voir la réponse</button>
+          <button id="skipBtn" class="btn btn-ghost">Passer →</button>
+        </div>
       </div>
     </div>
 
   </main>
 
   <nav class="bottom-nav">
-    <button class="nav-btn active" data-section="vocabulaire">
-      <span class="nav-icon">🗺️</span><span>Mots</span>
+    <button class="nav-btn active" data-mode="theme">
+      <span class="nav-icon">🗺️</span><span>Thèmes</span>
     </button>
-    <button class="nav-btn" data-section="phrases">
-      <span class="nav-icon">💬</span><span>Phrases</span>
+    <button class="nav-btn" data-mode="eval">
+      <span class="nav-icon">🎯</span><span>Évaluation</span>
     </button>
-    <button class="nav-btn" data-section="verbes">
-      <span class="nav-icon">⚙️</span><span>Verbes</span>
-    </button>
-    <button class="nav-btn" data-section="chiffres">
+    <button class="nav-btn" data-mode="chiffres">
       <span class="nav-icon">🔢</span><span>Chiffres</span>
     </button>
-    <button class="nav-btn" data-section="grammaire">
+    <button class="nav-btn" data-mode="grammaire">
       <span class="nav-icon">📜</span><span>Grammaire</span>
     </button>
   </nav>

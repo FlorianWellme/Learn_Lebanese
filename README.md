@@ -20,6 +20,51 @@ Aucune installation, aucun framework : juste `index.html`, `style.css`,
 6. Ajoute-la à l'écran d'accueil de ton téléphone (Safari/Chrome →
    "Ajouter à l'écran d'accueil") pour l'utiliser comme une vraie petite app.
 
+## Fonctionnement de l'appli
+
+L'appli a 4 onglets en bas : **Thèmes**, **Évaluation**, **Chiffres**,
+**Grammaire**.
+
+- **Thèmes** : choisis un thème (Météo, Famille, Direction, Voyage,
+  Opposés...), puis choisis ce que tu veux réviser dedans — **Mots**,
+  **Phrases**, **Verbes**, ou **Mix** (un mélange des trois). Les thèmes sont
+  déduits automatiquement de `data.json` : si tu ajoutes un mot avec une
+  nouvelle valeur de `"categorie"`, un nouveau thème apparaît tout seul.
+- **Évaluation** : choisis Mots / Phrases / Verbes / Mix, et l'appli te donne
+  une session qui mélange **tous les thèmes**, limitée à 30 cartes — pratique
+  pour un petit contrôle rapide de tes connaissances.
+- **Chiffres** et **Grammaire** : comme avant, une liste dédiée, sans
+  sélection de thème.
+
+Dans une session :
+- Chaque carte montre une question en français. Tu écris ta réponse (à voix
+  haute ou dans le champ texte), puis tu appuies sur **"Voir la réponse"** (ou
+  tu touches la carte, ou tu appuies sur Entrée) pour la retourner.
+- **"Passer →"** avance à la carte suivante, **"← Précédent"** revient à la
+  précédente (le paquet est circulaire : après la dernière carte, "Passer"
+  revient à la première, et inversement).
+- Le bouton ⟲ en haut à droite mélange l'ordre des cartes de la session en
+  cours.
+- **"← Changer"** en haut de la session ramène à l'écran de choix (thème ou
+  type) pour changer de sujet.
+- Rien n'est sauvegardé entre les sessions (pas de score, pas de compte) :
+  c'est volontairement simple, un pur outil de révision.
+
+## Comment fonctionnent les thèmes
+
+Chaque mot a un champ `"categorie"`, chaque phrase et chaque verbe ont un
+champ `"theme"`. Ce sont ces valeurs qui définissent les thèmes affichés dans
+l'onglet **Thèmes** — utilise la **même valeur exacte** (mêmes accents, même
+casse) sur plusieurs entrées pour qu'elles se retrouvent regroupées ensemble,
+même si elles sont de types différents (un mot, une phrase et un verbe
+peuvent partager le thème `"voyage"` par exemple, et apparaîtront ensemble en
+mode "Mix").
+
+Thèmes déjà utilisés dans le fichier de départ : `transport`, `lieu`,
+`nourriture`, `personnes`, `nature`, `objet`, `météo`, `expression`,
+`connecteur`, `question`, `famille`, `direction`, `action`, `adjectifs`,
+`voyage`, `quotidien`, `salutations`. Tu peux librement en inventer d'autres.
+
 ## Comment ajouter du contenu
 
 Tout le contenu vit dans **`data.json`**. Tu n'as jamais besoin de toucher au
@@ -31,33 +76,44 @@ Le fichier a 5 catégories : `vocabulaire`, `phrases`, `verbes`, `chiffres`,
 ### Ajouter un mot de vocabulaire
 
 ```json
-{ "id": "v11", "fr": "table", "lb_latin": "tawlé", "lb_arabic": "طاولة", "categorie": "objet" }
+{ "id": "v200", "fr": "table", "lb_latin": "tawlé", "lb_arabic": "طاولة", "categorie": "objet" }
 ```
 
-- `id` : un identifiant unique, juste pour toi (ex. `v11`, `v12`...)
+- `id` : un identifiant unique, juste pour toi (ex. `v200`, `v201`...)
 - `fr` : le mot en français (affiché au recto)
 - `lb_latin` : la transcription phonétique en lettres latines (affichée au
   verso, ex. "safineh")
 - `lb_arabic` : le mot en écriture arabe (optionnel, mais sympa à avoir)
-- `categorie` : un simple mot-clé libre (transport, nourriture, nature...)
+- `categorie` : le thème du mot (voir la liste ci-dessus, ou invente le tien)
+
+### Ajouter un mot avec son contraire (thème "adjectifs")
+
+```json
+{ "id": "v201", "fr": "rapide", "lb_latin": "sarii'", "lb_arabic": "", "categorie": "adjectifs", "contraire_fr": "lent", "contraire_lb": "batee'" }
+```
+
+Le contraire s'affiche comme petite note en bas du verso de la carte.
 
 ### Ajouter une phrase
 
 ```json
-{ "id": "p9", "fr": "À demain !", "lb_latin": "Bekra nchoufak.", "lb_arabic": "بكرا نشوفك." }
+{ "id": "p52", "fr": "À demain !", "lb_latin": "Bekra nchoufak.", "lb_arabic": "بكرا نشوفك.", "theme": "salutations" }
 ```
 
 ### Ajouter un verbe
 
-Chaque verbe a une conjugaison complète — ajoute autant de pronoms que tu
-veux dans `conjugaison`, l'appli les affiche automatiquement.
+Chaque verbe peut avoir une conjugaison complète au présent (`conjugaison`)
+et un exemple au passé (`passe_exemple`, facultatif). Si tu ne renseignes pas
+encore de conjugaison complète, la carte affichera juste la forme de base —
+tu pourras compléter plus tard.
 
 ```json
 {
-  "id": "ver4",
+  "id": "ver14",
   "infinitif_fr": "boire",
   "infinitif_lb_latin": "yechrab",
   "infinitif_lb_arabic": "يشرب",
+  "theme": "nourriture",
   "conjugaison": {
     "je": "bechrab",
     "tu (m)": "btéchrab",
@@ -67,7 +123,8 @@ veux dans `conjugaison`, l'appli les affiche automatiquement.
     "nous": "mnéchrab",
     "vous": "btéchrabo",
     "ils / elles": "byéchrabo"
-  }
+  },
+  "passe_exemple": "chrebet"
 }
 ```
 
@@ -95,21 +152,6 @@ veux dans `conjugaison`, l'appli les affiche automatiquement.
 n'es pas sûr, tu peux coller le contenu de `data.json` dans un validateur en
 ligne (recherche "JSON validator online") ou simplement me redemander de
 l'éditer pour toi.
-
-## Fonctionnement de l'appli
-
-- 5 onglets en bas : Mots, Phrases, Verbes, Chiffres, Grammaire.
-- Chaque carte montre une question en français. Tu écris ta réponse (à voix
-  haute ou dans le champ texte, comme tu préfères), puis tu appuies sur
-  **"Voir la réponse"** (ou tu touches la carte, ou tu appuies sur Entrée)
-  pour la retourner et voir la bonne réponse en libanais (translittération +
-  écriture arabe).
-- **"Passer →"** te fait avancer à la carte suivante.
-- Le bouton ⟲ en haut à droite mélange l'ordre des cartes de la section en
-  cours.
-- Rien n'est sauvegardé entre les sessions (pas de score, pas de compte) :
-  c'est volontairement simple, juste un support de révision que tu consultes
-  librement, dans l'ordre que tu veux.
 
 ## Pourquoi pas three.js ?
 
