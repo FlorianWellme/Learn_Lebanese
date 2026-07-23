@@ -1166,6 +1166,13 @@
       "lb_latin": "anik(a)",
       "lb_arabic": "",
       "categorie": "adjectifs"
+    },
+    {
+      "id": "v159",
+      "fr": "spécial",
+      "lb_latin": "fas",
+      "lb_arabic": "",
+      "categorie": "adjectifs"
     }
   ],
   "phrases": [
@@ -1420,6 +1427,55 @@
       "lb_latin": "Mumtaz ya shebab",
       "lb_arabic": "ممتاز يا شباب",
       "theme": "expression"
+    },
+    {
+      "id": "p52",
+      "fr": "Qu'as-tu fait hier après le travail ?",
+      "lb_latin": "Shu sawet imbara baad ichiril ?",
+      "lb_arabic": "",
+      "theme": "quotidien"
+    },
+    {
+      "id": "p53",
+      "fr": "J'ai fait une fête jeudi dernier.",
+      "lb_latin": "Sawet afle lyom el-khamis el-madi.",
+      "lb_arabic": "",
+      "theme": "quotidien"
+    },
+    {
+      "id": "p54",
+      "fr": "Nous avons fait tous les devoirs.",
+      "lb_latin": "Saweyna kil al-wasayef.",
+      "lb_arabic": "",
+      "theme": "quotidien"
+    },
+    {
+      "id": "p55",
+      "fr": "Elle veut faire son anniversaire dans ce restaurant.",
+      "lb_latin": "Bidda itsawe aïd-milada bihada al-matam.",
+      "lb_arabic": "",
+      "theme": "quotidien"
+    },
+    {
+      "id": "p56",
+      "fr": "Qu'est-ce que tu vas faire vendredi ?",
+      "lb_latin": "Shu biddak itsawe lyom al-jumua ?",
+      "lb_arabic": "",
+      "theme": "quotidien"
+    },
+    {
+      "id": "p57",
+      "fr": "Je suis en train de faire...",
+      "lb_latin": "3am btsawi...",
+      "lb_arabic": "",
+      "theme": "quotidien"
+    },
+    {
+      "id": "p58",
+      "fr": "Tu vas faire l'examen dimanche.",
+      "lb_latin": "Rah tsawi al-imtham lyom al-ahad.",
+      "lb_arabic": "",
+      "theme": "quotidien"
     }
   ],
   "verbes": [
