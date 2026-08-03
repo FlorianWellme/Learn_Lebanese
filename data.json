@@ -1173,6 +1173,111 @@
       "lb_latin": "fas",
       "lb_arabic": "",
       "categorie": "adjectifs"
+    },
+    {
+      "id": "v160",
+      "fr": "avec",
+      "lb_latin": "Maa",
+      "lb_arabic": "",
+      "categorie": "adjectifs"
+    },
+    {
+      "id": "v161",
+      "fr": "matin",
+      "lb_latin": "el-sabah",
+      "lb_arabic": "",
+      "categorie": "adjectifs"
+    },
+    {
+      "id": "v162",
+      "fr": "midi",
+      "lb_latin": "el-doher",
+      "lb_arabic": "",
+      "categorie": "adjectifs"
+    },
+    {
+      "id": "v163",
+      "fr": "soir",
+      "lb_latin": "el-sa'ir",
+      "lb_arabic": "",
+      "categorie": "adjectifs"
+    },
+    {
+      "id": "v164",
+      "fr": "nuit",
+      "lb_latin": "el-layl",
+      "lb_arabic": "",
+      "categorie": "adjectifs"
+    },
+    {
+      "id": "v165",
+      "fr": "sortie",
+      "lb_latin": "dahra",
+      "lb_arabic": "",
+      "categorie": "adjectifs"
+    },
+    {
+      "id": "v166",
+      "fr": "jours",
+      "lb_latin": "ayam",
+      "lb_arabic": "",
+      "categorie": "adjectifs"
+    },
+    {
+      "id": "v167",
+      "fr": "la semaine",
+      "lb_latin": "el-esboo3",
+      "lb_arabic": "",
+      "categorie": "adjectifs"
+    },
+    {
+      "id": "v168",
+      "fr": "Dimanche",
+      "lb_latin": "el-ahad",
+      "lb_arabic": "",
+      "categorie": "adjectifs"
+    },
+    { 
+      "id": "v169",
+      "fr": "Lundi",
+      "lb_latin": "el-tnein",
+      "lb_arabic": "",
+      "categorie": "adjectifs"
+    },
+    { 
+      "id": "v170",
+      "fr": "Mardi",
+      "lb_latin": "el-talaata",
+      "lb_arabic": "",
+      "categorie": "adjectifs"
+    },
+    { 
+      "id": "v171",
+      "fr": "Mercredi",
+      "lb_latin": "el-erbaa",
+      "lb_arabic": "",
+      "categorie": "adjectifs"
+    },
+    { 
+      "id": "v172",
+      "fr": "Jeudi",
+      "lb_latin": "el-khamees",
+      "lb_arabic": "",
+      "categorie": "adjectifs"
+    },
+    { 
+      "id": "v173",
+      "fr": "Vendredi",
+      "lb_latin": "el-jomoa",
+      "lb_arabic": "",
+      "categorie": "adjectifs"
+    },
+    { 
+      "id": "v174",
+      "fr": "Samedi",
+      "lb_latin": "el-sabet",
+      "lb_arabic": "",
+      "categorie": "adjectifs"
     }
   ],
   "phrases": [
@@ -1475,6 +1580,48 @@
       "fr": "Tu vas faire l'examen dimanche.",
       "lb_latin": "Rah tsawi al-imtham lyom al-ahad.",
       "lb_arabic": "",
+      "theme": "quotidien"
+    },
+    { 
+      "id": "p59",
+      "fr": "Quel est le jour aujourd'hui ?",
+      "lb_latin": "Shu el-lyom ?",
+      "lb_arabic": "شو اليوم؟",
+      "theme": "quotidien"
+    },
+    { 
+      "id": "p60",
+      "fr": "Aujourd'hui c'est lundi.",
+      "lb_latin": "El-lyom el-tnein.",
+      "lb_arabic": "اليوم الاثنين.",
+      "theme": "quotidien"
+    },
+    { 
+      "id": "p61",
+      "fr": "Quel est le jour demain ?",
+      "lb_latin": "Shu el-lyom bukra ?",
+      "lb_arabic": "شو اليوم بكرا؟",
+      "theme": "quotidien"
+    },
+    { 
+      "id": "p62",
+      "fr": "Demain c'est mardi.",
+      "lb_latin": "Bukra el-talaata.",
+      "lb_arabic": "بكرا الثلاثاء.",
+      "theme": "quotidien"
+    },
+    { 
+      "id": "p63",
+      "fr": "Quel etait le jour hier ?",
+      "lb_latin": "Shu kaan el-yom embareh ?",
+      "lb_arabic": "شو اليوم امبارح؟",
+      "theme": "quotidien"
+    },
+    { 
+      "id": "p64",
+      "fr": "Hier c'était dimanche.",
+      "lb_latin": "Embarah kaan el-ahad.",
+      "lb_arabic": "امبارح الأحد.",
       "theme": "quotidien"
     }
   ],
