@@ -1186,98 +1186,98 @@
       "fr": "matin",
       "lb_latin": "el-sabah",
       "lb_arabic": "",
-      "categorie": "adjectifs"
+      "categorie": "météo"
     },
     {
       "id": "v162",
       "fr": "midi",
       "lb_latin": "el-doher",
       "lb_arabic": "",
-      "categorie": "adjectifs"
+      "categorie": "météo"
     },
     {
       "id": "v163",
       "fr": "soir",
       "lb_latin": "el-sa'ir",
       "lb_arabic": "",
-      "categorie": "adjectifs"
+      "categorie": "météo"
     },
     {
       "id": "v164",
       "fr": "nuit",
       "lb_latin": "el-layl",
       "lb_arabic": "",
-      "categorie": "adjectifs"
+      "categorie": "météo"
     },
     {
       "id": "v165",
       "fr": "sortie",
       "lb_latin": "dahra",
       "lb_arabic": "",
-      "categorie": "adjectifs"
+      "categorie": "lieu"
     },
     {
       "id": "v166",
       "fr": "jours",
       "lb_latin": "ayam",
       "lb_arabic": "",
-      "categorie": "adjectifs"
+      "categorie": "quotidien"
     },
     {
       "id": "v167",
       "fr": "la semaine",
       "lb_latin": "el-esboo3",
       "lb_arabic": "",
-      "categorie": "adjectifs"
+      "categorie": "quotidien"
     },
     {
       "id": "v168",
       "fr": "Dimanche",
       "lb_latin": "el-ahad",
       "lb_arabic": "",
-      "categorie": "adjectifs"
+      "categorie": "quotidien"
     },
     { 
       "id": "v169",
       "fr": "Lundi",
       "lb_latin": "el-tnein",
       "lb_arabic": "",
-      "categorie": "adjectifs"
+      "categorie": "quotidien"
     },
     { 
       "id": "v170",
       "fr": "Mardi",
       "lb_latin": "el-talaata",
       "lb_arabic": "",
-      "categorie": "adjectifs"
+      "categorie": "quotidien"
     },
     { 
       "id": "v171",
       "fr": "Mercredi",
       "lb_latin": "el-erbaa",
       "lb_arabic": "",
-      "categorie": "adjectifs"
+      "categorie": "quotidien"
     },
     { 
       "id": "v172",
       "fr": "Jeudi",
       "lb_latin": "el-khamees",
       "lb_arabic": "",
-      "categorie": "adjectifs"
+      "categorie": "quotidien"
     },
     { 
       "id": "v173",
       "fr": "Vendredi",
       "lb_latin": "el-jomoa",
       "lb_arabic": "",
-      "categorie": "adjectifs"
+      "categorie": "quotidien"
     },
     { 
       "id": "v174",
       "fr": "Samedi",
       "lb_latin": "el-sabet",
       "lb_arabic": "",
-      "categorie": "adjectifs"
+      "categorie": "quotidien"
     }
   ],
   "phrases": [
