@@ -710,8 +710,8 @@
     {
       "id": "v103",
       "fr": "bas",
-      "lb_latin": "that",
-      "lb_arabic": "أسفل",
+      "lb_latin": "waté",
+      "lb_arabic": "",
       "categorie": "direction"
     },
     {
@@ -929,11 +929,11 @@
     {
       "id": "v132",
       "fr": "haut",
-      "lb_latin": "3ali",
+      "lb_latin": "3alé",
       "lb_arabic": "",
       "categorie": "adjectifs",
       "contraire_fr": "bas",
-      "contraire_lb": "wati"
+      "contraire_lb": "waté"
     },
     {
       "id": "v133",
@@ -1240,14 +1240,14 @@
     { 
       "id": "v169",
       "fr": "Lundi",
-      "lb_latin": "el-tnein",
+      "lb_latin": "el-tanen",
       "lb_arabic": "",
       "categorie": "quotidien"
     },
     { 
       "id": "v170",
       "fr": "Mardi",
-      "lb_latin": "el-talaata",
+      "lb_latin": "el-taléeta",
       "lb_arabic": "",
       "categorie": "quotidien"
     },
@@ -1258,7 +1258,7 @@
       "lb_arabic": "",
       "categorie": "quotidien"
     },
-    { 
+        { 
       "id": "v172",
       "fr": "Jeudi",
       "lb_latin": "el-khamees",
@@ -1278,6 +1278,79 @@
       "lb_latin": "el-sabet",
       "lb_arabic": "",
       "categorie": "quotidien"
+    },
+    {
+      "id": "v175",
+      "fr": "mois/ pl",
+      "lb_latin": "shaher/ shuur",
+      "lb_arabic": "",
+      "categorie": "quotidien"
+    },
+    {
+      "id": "v176",
+      "fr": "année(s)",
+      "lb_latin": "sene/ snil",
+      "lb_arabic": "",
+      "categorie": "quotidien"
+    },
+    {
+      "id": "v178",
+      "fr": "hier",
+      "lb_latin": "mbareh",
+      "lb_arabic": "",
+      "categorie": "quotidien"
+    },
+    {
+      "id": "v179",
+      "fr": "demain",
+      "lb_latin": "boukra",
+      "lb_arabic": "",
+      "categorie": "quotidien"
+    },
+    {
+      "id": "v180",
+      "fr": "pourquoi ?",
+      "lb_latin": "lech/ lé",
+      "lb_arabic": "",
+      "categorie": "question"
+    },
+    {
+      "id": "v181",
+      "fr": "bien sûr",
+      "lb_latin": "tab'an",
+      "lb_arabic": "",
+      "categorie": "expression"
+    },
+    {
+      "id": "v182",
+      "fr": "ça va/ ça va?",
+      "lb_latin": "ma'lish/ma'lé",
+      "lb_arabic": "",
+      "categorie": "question"
+    },
+    { "id": "v183",
+      "fr": "bien que...",
+      "lb_latin": "ma'enno...",
+      "lb_arabic": "",
+      "categorie": "connecteur"
+    },
+    { "id": "v184",
+      "fr": "même pas un peu",
+      "lb_latin": "bil marra",
+      "lb_arabic": "",
+      "categorie": "expression"
+    },
+    { "id": "v185",
+      "fr": "ça a l'air",
+      "lb_latin": "ka'enno",
+      "lb_arabic": "",
+      "categorie": "expression"
+    },
+    { "id": "v186",
+      "fr": "Sérieusement ?",
+      "lb_latin": "ballah shu",
+      "lb_arabic": "",
+      "categorie": "question"
     }
   ],
   "phrases": [
@@ -1623,6 +1696,13 @@
       "lb_latin": "Embarah kaan el-ahad.",
       "lb_arabic": "امبارح الأحد.",
       "theme": "quotidien"
+    },
+    {
+      "id": "p65",
+      "fr": "Qu'est-ce que tu dis ?",
+      "lb_latin": "Shu hal-haki ?",
+      "lb_arabic": "شو هالحكي؟",
+      "theme": "question"
     }
   ],
   "verbes": [
