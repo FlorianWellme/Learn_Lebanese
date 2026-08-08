@@ -1703,6 +1703,69 @@
       "lb_latin": "Shu hal-haki ?",
       "lb_arabic": "شو هالحكي؟",
       "theme": "question"
+    },
+    {
+      "id": "p66",
+      "fr": "Je ne comprends pas ce que tu dis.",
+      "lb_latin": "Ma fehmt shu hal-haki.",
+      "lb_arabic": "مش فاهم شو هالحكي.",
+      "theme": "question"
+    },
+    {
+      "id": "p67",
+      "fr": "Peux-tu répéter ?",
+      "lb_latin": "Feek t3eed ?",
+      "lb_arabic": "فيك تعيد؟",
+      "theme": "question"
+    }
+    {
+      "id": "p68",
+      "fr": "Peux-tu parler plus lentement ?",
+      "lb_latin": "Feek tehké maa malak ?",
+      "lb_arabic": "فيك تحكي بأقل أعدل؟",
+      "theme": "question"
+    },
+    {
+      "id": "p69",
+      "fr": "Donne-moi le livre.",
+      "lb_latin": "A'téné l ktab.",
+      "lb_arabic": "أتعطي libr.",
+      "theme": "quotidien"
+    },
+    {
+      "id": "p70",
+      "fr": "Donnez-moi le livre.",
+      "lb_latin": "A'tuné l ktab.",
+      "lb_arabic": "أتعطي libr.",
+      "theme": "quotidien"
+    },
+    {
+      "id": "p71",
+      "fr": "Dites-lui de me donner les clés.",
+      "lb_latin": "'Ollu ya'téné el-mafateeh.",
+      "lb_arabic": "قول له أعطني المفاتيح.",
+      "theme": "quotidien"
+    },
+    {
+      "id": "p72",
+      "fr": "Il lui a donné un cadeau (à elle)",
+      "lb_latin": "A'taha hadyeh",
+      "lb_arabic": "أعطاه هدية",
+      "theme": "quotidien"
+    }
+    {
+      "id": "p73",
+      "fr": "Lui donneras-tu l'argent ? (à lui)",
+      "lb_latin": "Rah ta'téo el-masaari ? ",
+      "lb_arabic": "رح تعطي المال؟",
+      "theme": "question"
+    },
+    {
+      "id": "p74",
+      "fr": "Je donne la sadaka",
+      "lb_latin": "Ba'té sadaka",
+      "lb_arabic": "أعطي الصدقة",
+      "theme": "quotidien"
     }
   ],
   "verbes": [
@@ -1828,6 +1891,35 @@
       "infinitif_lb_latin": "3am zur",
       "infinitif_lb_arabic": "يزور",
       "theme": "voyage"
+    },
+    {
+      "id": "ver14",
+      "infinitif_fr": "(pas)/Donner",
+      "infinitif_lb_latin": "a'ta, futur rah + a'ta (ex you: rah ta'té), ma + a'ta (negation)",
+      "infinitif_lb_arabic": "يُعطي",
+      "conjugaison": {
+        "je": "ba'té/ ma ba'té",
+        "tu (m)": "bta'té",
+        "tu (f)": "bta'té",
+        "il": "bya'té/ ma bya'té",
+        "elle": "bta'té/ ma bta'té",
+        "nous": "bna'té/ ma bna'té",
+        "vous": "bta'tu/ ma bta'tu",
+        "ils / elles": "bya'tu/ ma bya'tu"
+      },
+      "theme": "quotidien"
+    },
+    {
+      "id": "ver15",
+      "infinitif_fr": "(pas)/Donner(impératif)",
+      "infinitif_lb_latin": "a'ta",
+      "infinitif_lb_arabic": "يُعطي",
+      "conjugaison": {
+        "tu (m)": "a'té/ ma ta'té",
+        "tu (f)": "a'té/ ma ta'té",
+        "vous": "a'tu/ ma ta'tu"
+      },
+      "theme": "quotidien"
     }
   ],
   "chiffres": [
