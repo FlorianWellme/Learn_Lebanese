@@ -20,35 +20,48 @@ Aucune installation, aucun framework : juste `index.html`, `style.css`,
 6. Ajoute-la à l'écran d'accueil de ton téléphone (Safari/Chrome →
    "Ajouter à l'écran d'accueil") pour l'utiliser comme une vraie petite app.
 
-## Fonctionnement de l'appli
+## Tester le site en local (Windows)
 
-L'appli a 4 onglets en bas : **Thèmes**, **Évaluation**, **Chiffres**,
-**Grammaire**.
+Le navigateur bloque le chargement de `data.json` si tu ouvres `index.html`
+directement en double-cliquant dessus. Ouvre PowerShell dans le dossier
+`Learn_Lebanese`, lance :
 
-- **Thèmes** : choisis un thème (Météo, Famille, Direction, Voyage,
-  Opposés...), puis choisis ce que tu veux réviser dedans — **Mots**,
-  **Phrases**, **Verbes**, ou **Mix** (un mélange des trois). Les thèmes sont
-  déduits automatiquement de `data.json` : si tu ajoutes un mot avec une
-  nouvelle valeur de `"categorie"`, un nouveau thème apparaît tout seul.
-- **Évaluation** : choisis Mots / Phrases / Verbes / Mix, et l'appli te donne
-  une session qui mélange **tous les thèmes**, limitée à 30 cartes — pratique
-  pour un petit contrôle rapide de tes connaissances.
-- **Chiffres** et **Grammaire** : comme avant, une liste dédiée, sans
-  sélection de thème.
+```powershell
+py -m http.server 8000
+```
+
+Puis visite <http://localhost:8000>. Laisse la fenêtre PowerShell ouverte
+pendant que tu utilises le site. Pour arrêter le serveur, appuie sur `Ctrl+C`.
+
+## Fonctionnement de l'appli (v2)
+
+4 onglets en bas : **Accueil**, **Exercices**, **Thèmes**, **Grammaire**.
+
+- **Session du jour** (Accueil) : 15 cartes mélangées (mots, phrases, verbes,
+  chiffres) avec des exercices variés. C'est le bouton à toucher chaque jour.
+- **Évaluation** (Accueil) : 30 cartes tirées dans tous les thèmes, Mots /
+  Phrases / Verbes / Mix, sans phase de découverte ni de sens inverse.
+- **Exercices** : 6 types, chacun avec choix du thème (ou tous) :
+  - 🌱 **Découverte** : la réponse s'affiche d'abord, puis on te la redemande.
+  - 🔁 **Sens inverse** : libanais vers français.
+  - ⚡ **QCM éclair** : 4 choix, réponse immédiate (auto-avance si juste).
+  - ⚙️ **Verbes** : un pronom + un verbe, tu écris la forme conjuguée.
+  - 🔢 **Chiffres** : chiffre vers mot (écrit) et mot vers chiffre (QCM).
+  - 🧩 **Phrases** : remettre les mots dans l'ordre, ou compléter à trous.
+- **Thèmes** : session de 20 cartes max sur un thème, en Mots / Phrases /
+  Verbes / Mix (les types vides sont grisés).
+- **Grammaire** : notions à lire (touche pour déplier).
 
 Dans une session :
-- Chaque carte montre une question en français. Tu écris ta réponse (à voix
-  haute ou dans le champ texte), puis tu appuies sur **"Voir la réponse"** (ou
-  tu touches la carte, ou tu appuies sur Entrée) pour la retourner.
-- **"Passer →"** avance à la carte suivante, **"← Précédent"** revient à la
-  précédente (le paquet est circulaire : après la dernière carte, "Passer"
-  revient à la première, et inversement).
-- Le bouton ⟲ en haut à droite mélange l'ordre des cartes de la session en
-  cours.
-- **"← Changer"** en haut de la session ramène à l'écran de choix (thème ou
-  type) pour changer de sujet.
-- Rien n'est sauvegardé entre les sessions (pas de score, pas de compte) :
-  c'est volontairement simple, un pur outil de révision.
+- Barre de progression en haut, boutons d'action **en bas** (zone du pouce).
+- Quand tu **écris**, la vérification est tolérante (e/i, o/u, ou/u, apostrophes
+  ignorées, petites fautes acceptées avec « Presque »). Des raccourcis **3 7 ' é**
+  sont au-dessus du clavier. Si l'appli se trompe, « J'avais bon ✓ » corrige.
+- Après chaque carte : **Acquis ✓** ou **À revoir** (boutons, ou glisser la
+  carte à droite = acquis, à gauche = à revoir).
+- Les cartes ratées reviennent **une fois** quelques cartes plus tard.
+- À la fin : score, liste des cartes à revoir, **Refaire les ratés**.
+- Rien n'est sauvegardé entre les sessions.
 
 ## Comment fonctionnent les thèmes
 
@@ -60,7 +73,7 @@ même si elles sont de types différents (un mot, une phrase et un verbe
 peuvent partager le thème `"voyage"` par exemple, et apparaîtront ensemble en
 mode "Mix").
 
-Thèmes déjà utilisés dans le fichier de départ : `transport`, `lieu`,
+Thèmes déjà utilisés : `transport`, `lieu`,
 `nourriture`, `personnes`, `nature`, `objet`, `météo`, `expression`,
 `connecteur`, `question`, `famille`, `direction`, `action`, `adjectifs`,
 `voyage`, `quotidien`, `salutations`, `temps`, `adverbes`, `corps`. Tu peux librement en inventer d'autres
