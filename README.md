@@ -63,7 +63,9 @@ mode "Mix").
 Thèmes déjà utilisés dans le fichier de départ : `transport`, `lieu`,
 `nourriture`, `personnes`, `nature`, `objet`, `météo`, `expression`,
 `connecteur`, `question`, `famille`, `direction`, `action`, `adjectifs`,
-`voyage`, `quotidien`, `salutations`. Tu peux librement en inventer d'autres.
+`voyage`, `quotidien`, `salutations`, `temps`, `adverbes`, `corps`. Tu peux librement en inventer d'autres
+(un nouveau thème apparaît tout seul dans l'appli ; sans libellé prédéfini dans `THEME_META` de `app.js`,
+il s'affiche avec son nom brut et une icône 🏷️).
 
 ## Comment ajouter du contenu
 

@@ -22,7 +22,10 @@ const THEME_META = {
   famille:     { label: 'Famille',      icon: '👪' },
   direction:   { label: 'Direction',    icon: '🧭' },
   action:      { label: 'Actions',      icon: '🏃' },
-  adjectifs:   { label: 'Opposés',      icon: '⚖️' },
+  adjectifs:   { label: 'Adjectifs',    icon: '⚖️' },
+  temps:       { label: 'Temps & jours', icon: '📅' },
+  adverbes:    { label: 'Adverbes',     icon: '⏱️' },
+  corps:       { label: 'Corps humain', icon: '🫀' },
   voyage:      { label: 'Voyage',       icon: '✈️' },
   quotidien:   { label: 'Quotidien',    icon: '🗓️' },
   salutations: { label: 'Salutations',  icon: '👋' },
@@ -198,6 +201,26 @@ function setActiveNav(mode) {
   els.navBtns.forEach((btn) => btn.classList.toggle('active', btn.dataset.mode === mode));
 }
 
+// Affiche le nombre de cartes par type et grise ceux qui sont vides
+function updateTypeButtons(theme) {
+  const labels = { mots: 'Mots', phrases: 'Phrases', verbes: 'Verbes', mix: 'Mix' };
+  els.typeBtns.forEach((btn) => {
+    const type = btn.dataset.type;
+    const base = labels[type];
+    const icon = btn.querySelector('.nav-icon').outerHTML;
+    if (theme) {
+      const n = allEntriesForType(state.data, type).filter((e) => themeOf(e) === theme).length;
+      btn.innerHTML = `${icon}${base}<span class="theme-count">${n} cartes</span>`;
+      btn.disabled = n === 0;
+      btn.style.opacity = n === 0 ? '0.35' : '1';
+    } else {
+      btn.innerHTML = `${icon}${base}`;
+      btn.disabled = false;
+      btn.style.opacity = '1';
+    }
+  });
+}
+
 // ---------- Écran 1 : grille des thèmes ----------
 function renderThemeGrid() {
   const themes = getAllThemes(state.data);
@@ -219,6 +242,7 @@ function renderThemeGrid() {
       const meta = themeMeta(state.selectedTheme);
       els.typePickerLabel.textContent = `${meta.icon} ${meta.label} — que veux-tu réviser ?`;
       els.backToThemes.style.display = 'block';
+      updateTypeButtons(state.selectedTheme);
       showPicker(els.typePicker);
     });
   });
@@ -357,6 +381,7 @@ els.navBtns.forEach((btn) => {
       state.selectedTheme = null;
       els.typePickerLabel.textContent = '🎯 Évaluation — mélange tous les thèmes (max 30 cartes)';
       els.backToThemes.style.display = 'none';
+      updateTypeButtons(null);
       showPicker(els.typePicker);
     } else if (mode === 'chiffres') {
       const pool = state.data.chiffres.map((item) => ({ kind: 'chiffre', item }));

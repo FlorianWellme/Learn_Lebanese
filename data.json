@@ -710,8 +710,8 @@
     {
       "id": "v103",
       "fr": "bas",
-      "lb_latin": "waté",
-      "lb_arabic": "",
+      "lb_latin": "that",
+      "lb_arabic": "أسفل",
       "categorie": "direction"
     },
     {
@@ -929,11 +929,11 @@
     {
       "id": "v132",
       "fr": "haut",
-      "lb_latin": "3alé",
+      "lb_latin": "3ali",
       "lb_arabic": "",
       "categorie": "adjectifs",
       "contraire_fr": "bas",
-      "contraire_lb": "waté"
+      "contraire_lb": "wati"
     },
     {
       "id": "v133",
@@ -1179,178 +1179,231 @@
       "fr": "avec",
       "lb_latin": "Maa",
       "lb_arabic": "",
-      "categorie": "adjectifs"
+      "categorie": "connecteur"
     },
     {
       "id": "v161",
       "fr": "matin",
       "lb_latin": "el-sabah",
       "lb_arabic": "",
-      "categorie": "météo"
+      "categorie": "temps"
     },
     {
       "id": "v162",
       "fr": "midi",
       "lb_latin": "el-doher",
       "lb_arabic": "",
-      "categorie": "météo"
+      "categorie": "temps"
     },
     {
       "id": "v163",
       "fr": "soir",
       "lb_latin": "el-sa'ir",
       "lb_arabic": "",
-      "categorie": "météo"
+      "categorie": "temps"
     },
     {
       "id": "v164",
       "fr": "nuit",
       "lb_latin": "el-layl",
       "lb_arabic": "",
-      "categorie": "météo"
+      "categorie": "temps"
     },
     {
       "id": "v165",
       "fr": "sortie",
       "lb_latin": "dahra",
       "lb_arabic": "",
-      "categorie": "lieu"
+      "categorie": "quotidien"
     },
     {
       "id": "v166",
       "fr": "jours",
       "lb_latin": "ayam",
       "lb_arabic": "",
-      "categorie": "quotidien"
+      "categorie": "temps"
     },
     {
       "id": "v167",
       "fr": "la semaine",
       "lb_latin": "el-esboo3",
       "lb_arabic": "",
-      "categorie": "quotidien"
+      "categorie": "temps"
     },
     {
       "id": "v168",
       "fr": "Dimanche",
       "lb_latin": "el-ahad",
       "lb_arabic": "",
-      "categorie": "quotidien"
+      "categorie": "temps"
     },
-    { 
+    {
       "id": "v169",
       "fr": "Lundi",
-      "lb_latin": "el-tanen",
+      "lb_latin": "el-tnein",
       "lb_arabic": "",
-      "categorie": "quotidien"
+      "categorie": "temps"
     },
-    { 
+    {
       "id": "v170",
       "fr": "Mardi",
-      "lb_latin": "el-taléeta",
+      "lb_latin": "el-talaata",
       "lb_arabic": "",
-      "categorie": "quotidien"
+      "categorie": "temps"
     },
-    { 
+    {
       "id": "v171",
       "fr": "Mercredi",
       "lb_latin": "el-erbaa",
       "lb_arabic": "",
-      "categorie": "quotidien"
+      "categorie": "temps"
     },
-        { 
+    {
       "id": "v172",
       "fr": "Jeudi",
       "lb_latin": "el-khamees",
       "lb_arabic": "",
-      "categorie": "quotidien"
+      "categorie": "temps"
     },
-    { 
+    {
       "id": "v173",
       "fr": "Vendredi",
       "lb_latin": "el-jomoa",
       "lb_arabic": "",
-      "categorie": "quotidien"
+      "categorie": "temps"
     },
-    { 
+    {
       "id": "v174",
       "fr": "Samedi",
       "lb_latin": "el-sabet",
       "lb_arabic": "",
-      "categorie": "quotidien"
+      "categorie": "temps"
     },
     {
       "id": "v175",
-      "fr": "mois/ pl",
-      "lb_latin": "shaher/ shuur",
+      "fr": "ici",
+      "lb_latin": "Hon",
       "lb_arabic": "",
-      "categorie": "quotidien"
+      "categorie": "adverbes"
     },
     {
       "id": "v176",
-      "fr": "année(s)",
-      "lb_latin": "sene/ snil",
+      "fr": "bientôt",
+      "lb_latin": "Areeban",
       "lb_arabic": "",
-      "categorie": "quotidien"
+      "categorie": "adverbes"
+    },
+    {
+      "id": "v177",
+      "fr": "là-bas",
+      "lb_latin": "Honeek",
+      "lb_arabic": "",
+      "categorie": "adverbes"
     },
     {
       "id": "v178",
-      "fr": "hier",
-      "lb_latin": "mbareh",
+      "fr": "maintenant",
+      "lb_latin": "Halla'",
       "lb_arabic": "",
-      "categorie": "quotidien"
+      "categorie": "adverbes"
     },
     {
       "id": "v179",
-      "fr": "demain",
-      "lb_latin": "boukra",
+      "fr": "parfois",
+      "lb_latin": "Aw'et",
       "lb_arabic": "",
-      "categorie": "quotidien"
+      "categorie": "adverbes"
     },
     {
       "id": "v180",
-      "fr": "pourquoi ?",
-      "lb_latin": "lech/ lé",
+      "fr": "toujours",
+      "lb_latin": "Deyman",
       "lb_arabic": "",
-      "categorie": "question"
+      "categorie": "adverbes"
     },
     {
       "id": "v181",
-      "fr": "bien sûr",
-      "lb_latin": "tab'an",
+      "fr": "rarement",
+      "lb_latin": "Aleel",
       "lb_arabic": "",
-      "categorie": "expression"
+      "categorie": "adverbes"
     },
     {
       "id": "v182",
-      "fr": "ça va/ ça va?",
-      "lb_latin": "ma'lish/ma'lé",
+      "fr": "habituellement",
+      "lb_latin": "3adatan",
       "lb_arabic": "",
-      "categorie": "question"
+      "categorie": "adverbes"
     },
-    { "id": "v183",
-      "fr": "bien que...",
-      "lb_latin": "ma'enno...",
+    {
+      "id": "v183",
+      "fr": "cœur",
+      "lb_latin": "Aleb",
       "lb_arabic": "",
-      "categorie": "connecteur"
+      "categorie": "corps"
     },
-    { "id": "v184",
-      "fr": "même pas un peu",
-      "lb_latin": "bil marra",
+    {
+      "id": "v184",
+      "fr": "poumons",
+      "lb_latin": "Raweya",
       "lb_arabic": "",
-      "categorie": "expression"
+      "categorie": "corps"
     },
-    { "id": "v185",
-      "fr": "ça a l'air",
-      "lb_latin": "ka'enno",
+    {
+      "id": "v185",
+      "fr": "reins",
+      "lb_latin": "Klewe",
       "lb_arabic": "",
-      "categorie": "expression"
+      "categorie": "corps"
     },
-    { "id": "v186",
-      "fr": "Sérieusement ?",
-      "lb_latin": "ballah shu",
+    {
+      "id": "v186",
+      "fr": "estomac",
+      "lb_latin": "Me3de",
       "lb_arabic": "",
-      "categorie": "question"
+      "categorie": "corps"
+    },
+    {
+      "id": "v187",
+      "fr": "foie",
+      "lb_latin": "Kebed",
+      "lb_arabic": "",
+      "categorie": "corps"
+    },
+    {
+      "id": "v188",
+      "fr": "intestin",
+      "lb_latin": "Mesran",
+      "lb_arabic": "",
+      "categorie": "corps"
+    },
+    {
+      "id": "v189",
+      "fr": "vessie",
+      "lb_latin": "Mabwale",
+      "lb_arabic": "",
+      "categorie": "corps"
+    },
+    {
+      "id": "v190",
+      "fr": "muscle",
+      "lb_latin": "3adal",
+      "lb_arabic": "",
+      "categorie": "corps"
+    },
+    {
+      "id": "v191",
+      "fr": "vésicule biliaire",
+      "lb_latin": "Mrara",
+      "lb_arabic": "",
+      "categorie": "corps"
+    },
+    {
+      "id": "v192",
+      "fr": "rate",
+      "lb_latin": "T7al",
+      "lb_arabic": "",
+      "categorie": "corps"
     }
   ],
   "phrases": [
@@ -1655,117 +1708,229 @@
       "lb_arabic": "",
       "theme": "quotidien"
     },
-    { 
+    {
       "id": "p59",
-      "fr": "Quel est le jour aujourd'hui ?",
+      "fr": "Quel jour sommes-nous aujourd'hui ?",
       "lb_latin": "Shu el-lyom ?",
       "lb_arabic": "شو اليوم؟",
-      "theme": "quotidien"
+      "theme": "temps"
     },
-    { 
+    {
       "id": "p60",
       "fr": "Aujourd'hui c'est lundi.",
       "lb_latin": "El-lyom el-tnein.",
       "lb_arabic": "اليوم الاثنين.",
-      "theme": "quotidien"
+      "theme": "temps"
     },
-    { 
+    {
       "id": "p61",
-      "fr": "Quel est le jour demain ?",
+      "fr": "Quel jour sera-t-on demain ?",
       "lb_latin": "Shu el-lyom bukra ?",
       "lb_arabic": "شو اليوم بكرا؟",
-      "theme": "quotidien"
+      "theme": "temps"
     },
-    { 
+    {
       "id": "p62",
       "fr": "Demain c'est mardi.",
       "lb_latin": "Bukra el-talaata.",
       "lb_arabic": "بكرا الثلاثاء.",
-      "theme": "quotidien"
+      "theme": "temps"
     },
-    { 
+    {
       "id": "p63",
-      "fr": "Quel etait le jour hier ?",
+      "fr": "Quel jour était-on hier ?",
       "lb_latin": "Shu kaan el-yom embareh ?",
       "lb_arabic": "شو اليوم امبارح؟",
-      "theme": "quotidien"
+      "theme": "temps"
     },
-    { 
+    {
       "id": "p64",
       "fr": "Hier c'était dimanche.",
       "lb_latin": "Embarah kaan el-ahad.",
       "lb_arabic": "امبارح الأحد.",
-      "theme": "quotidien"
+      "theme": "temps"
     },
     {
       "id": "p65",
-      "fr": "Qu'est-ce que tu dis ?",
-      "lb_latin": "Shu hal-haki ?",
-      "lb_arabic": "شو هالحكي؟",
+      "fr": "Pourquoi ça ?",
+      "lb_latin": "Lesh hek ?",
+      "lb_arabic": "",
       "theme": "question"
     },
     {
       "id": "p66",
-      "fr": "Je ne comprends pas ce que tu dis.",
-      "lb_latin": "Ma fehmt shu hal-haki.",
-      "lb_arabic": "مش فاهم شو هالحكي.",
+      "fr": "Qu'est-ce qu'il a dit ?",
+      "lb_latin": "Shu al ?",
+      "lb_arabic": "",
       "theme": "question"
     },
     {
       "id": "p67",
-      "fr": "Peux-tu répéter ?",
-      "lb_latin": "Feek t3eed ?",
-      "lb_arabic": "فيك تعيد؟",
+      "fr": "Qu'est-ce qui s'est passé ?",
+      "lb_latin": "Shu sar ?",
+      "lb_arabic": "",
       "theme": "question"
     },
     {
       "id": "p68",
-      "fr": "Peux-tu parler plus lentement ?",
-      "lb_latin": "Feek tehké maa malak ?",
-      "lb_arabic": "فيك تحكي بأقل أعدل؟",
+      "fr": "N'est-ce pas ?",
+      "lb_latin": "Ma hek ?",
+      "lb_arabic": "",
       "theme": "question"
     },
     {
       "id": "p69",
-      "fr": "Donne-moi le livre.",
-      "lb_latin": "A'téné l ktab.",
-      "lb_arabic": "أتعطي libr.",
-      "theme": "quotidien"
+      "fr": "Qu'est-ce que c'est ?",
+      "lb_latin": "Shu hayda ?",
+      "lb_arabic": "",
+      "theme": "question"
     },
     {
       "id": "p70",
-      "fr": "Donnez-moi le livre.",
-      "lb_latin": "A'tuné l ktab.",
-      "lb_arabic": "أتعطي libr.",
-      "theme": "quotidien"
+      "fr": "Laquelle ?",
+      "lb_latin": "Ayya we7de ?",
+      "lb_arabic": "",
+      "theme": "question"
     },
     {
       "id": "p71",
-      "fr": "Dites-lui de me donner les clés.",
-      "lb_latin": "'Ollu ya'téné el-mafateeh.",
-      "lb_arabic": "قول له أعطني المفاتيح.",
-      "theme": "quotidien"
+      "fr": "Quelle heure est-il ?",
+      "lb_latin": "Adde el se3a ?",
+      "lb_arabic": "",
+      "theme": "question"
     },
     {
       "id": "p72",
-      "fr": "Il lui a donné un cadeau (à elle)",
-      "lb_latin": "A'taha hadyeh",
-      "lb_arabic": "أعطاه هدية",
-      "theme": "quotidien"
+      "fr": "Combien ça coûte ?",
+      "lb_latin": "Adde 7a'o ?",
+      "lb_arabic": "",
+      "theme": "question"
     },
     {
       "id": "p73",
-      "fr": "Lui donneras-tu l'argent ? (à lui)",
-      "lb_latin": "Rah ta'téo el-masaari ? ",
-      "lb_arabic": "رح تعطي المال؟",
+      "fr": "Quoi de neuf ?",
+      "lb_latin": "Shu akhbarak ?",
+      "lb_arabic": "",
       "theme": "question"
     },
     {
       "id": "p74",
-      "fr": "Je donne la sadaka",
-      "lb_latin": "Ba'té sadaka",
-      "lb_arabic": "أعطي الصدقة",
+      "fr": "Qui est-ce ?",
+      "lb_latin": "Meen hayda ?",
+      "lb_arabic": "",
+      "theme": "question"
+    },
+    {
+      "id": "p75",
+      "fr": "Est-ce que tu écoutes ?",
+      "lb_latin": "3am Tesma3 ?",
+      "lb_arabic": "",
+      "theme": "question"
+    },
+    {
+      "id": "p76",
+      "fr": "Laisse-moi voir.",
+      "lb_latin": "Khalline shut.",
+      "lb_arabic": "",
+      "theme": "expression"
+    },
+    {
+      "id": "p77",
+      "fr": "Laisse-moi réfléchir.",
+      "lb_latin": "Khalline fakkir.",
+      "lb_arabic": "",
+      "theme": "expression"
+    },
+    {
+      "id": "p78",
+      "fr": "Donne-moi une minute.",
+      "lb_latin": "3teene d'i'a.",
+      "lb_arabic": "",
+      "theme": "expression"
+    },
+    {
+      "id": "p79",
+      "fr": "Je te tiendrai au courant.",
+      "lb_latin": "Bredellak/ik khabar.",
+      "lb_arabic": "",
+      "theme": "expression"
+    },
+    {
+      "id": "p80",
+      "fr": "Je vais y réfléchir.",
+      "lb_latin": "Bfaker fiya.",
+      "lb_arabic": "",
+      "theme": "expression"
+    },
+    {
+      "id": "p81",
+      "fr": "Une seconde.",
+      "lb_latin": "Lahza.",
+      "lb_arabic": "",
+      "theme": "expression"
+    },
+    {
+      "id": "p82",
+      "fr": "Pas sûr.",
+      "lb_latin": "Mesh 3al akeed.",
+      "lb_arabic": "",
+      "theme": "expression"
+    },
+    {
+      "id": "p83",
+      "fr": "Ça va s'arranger.",
+      "lb_latin": "Bten7al.",
+      "lb_arabic": "",
+      "theme": "expression"
+    },
+    {
+      "id": "p84",
+      "fr": "Il y a des embouteillages.",
+      "lb_latin": "Fi 3aj'a.",
+      "lb_arabic": "",
       "theme": "quotidien"
+    },
+    {
+      "id": "p85",
+      "fr": "Je pense que oui.",
+      "lb_latin": "Be3te'id.",
+      "lb_arabic": "",
+      "theme": "expression"
+    },
+    {
+      "id": "p86",
+      "fr": "On verra.",
+      "lb_latin": "Menshuf.",
+      "lb_arabic": "",
+      "theme": "expression"
+    },
+    {
+      "id": "p87",
+      "fr": "Incroyable !",
+      "lb_latin": "Ma bsaddi'.",
+      "lb_arabic": "",
+      "theme": "expression"
+    },
+    {
+      "id": "p88",
+      "fr": "J'attends avec impatience.",
+      "lb_latin": "Nater/a 3a nar.",
+      "lb_arabic": "",
+      "theme": "expression"
+    },
+    {
+      "id": "p89",
+      "fr": "Ne t'inquiète pas.",
+      "lb_latin": "Ma t3tal/e ham.",
+      "lb_arabic": "",
+      "theme": "expression"
+    },
+    {
+      "id": "p90",
+      "fr": "Je te parle plus tard / on se parle.",
+      "lb_latin": "Be7kik.",
+      "lb_arabic": "",
+      "theme": "expression"
     }
   ],
   "verbes": [
@@ -1894,32 +2059,91 @@
     },
     {
       "id": "ver14",
-      "infinitif_fr": "(pas)/Donner",
-      "infinitif_lb_latin": "a'ta, futur rah + a'ta (ex you: rah ta'té), ma + a'ta (negation)",
-      "infinitif_lb_arabic": "يُعطي",
+      "infinitif_fr": "écouter / entendre",
+      "infinitif_lb_latin": "esma3",
+      "infinitif_lb_arabic": "",
+      "theme": "quotidien",
       "conjugaison": {
-        "je": "ba'té/ ma ba'té",
-        "tu (m)": "bta'té",
-        "tu (f)": "bta'té",
-        "il": "bya'té/ ma bya'té",
-        "elle": "bta'té/ ma bta'té",
-        "nous": "bna'té/ ma bna'té",
-        "vous": "bta'tu/ ma bta'tu",
-        "ils / elles": "bya'tu/ ma bya'tu"
-      },
-      "theme": "quotidien"
+        "j'entends": "esma3",
+        "j'ai entendu": "sme3et",
+        "je vais écouter": "Ra7 esma3",
+        "laisse-moi écouter": "Khalline esma3",
+        "je peux écouter": "Fiyye esma3",
+        "je t'écoute": "3am esma3lak/ik"
+      }
     },
     {
       "id": "ver15",
-      "infinitif_fr": "(pas)/Donner(impératif)",
-      "infinitif_lb_latin": "a'ta",
-      "infinitif_lb_arabic": "يُعطي",
+      "infinitif_fr": "marcher",
+      "infinitif_lb_latin": "emshe",
+      "infinitif_lb_arabic": "",
+      "theme": "quotidien",
       "conjugaison": {
-        "tu (m)": "a'té/ ma ta'té",
-        "tu (f)": "a'té/ ma ta'té",
-        "vous": "a'tu/ ma ta'tu"
-      },
-      "theme": "quotidien"
+        "je marche": "emshe",
+        "je suis en train de marcher": "3am emesh"
+      }
+    },
+    {
+      "id": "ver16",
+      "infinitif_fr": "courir",
+      "infinitif_lb_latin": "erkud",
+      "infinitif_lb_arabic": "",
+      "theme": "quotidien",
+      "conjugaison": {
+        "je cours": "erkud",
+        "je suis en train de courir": "3am erkud"
+      }
+    },
+    {
+      "id": "ver17",
+      "infinitif_fr": "s'asseoir",
+      "infinitif_lb_latin": "e'3ad",
+      "infinitif_lb_arabic": "",
+      "theme": "quotidien",
+      "conjugaison": {
+        "je m'assois": "e'3ad"
+      }
+    },
+    {
+      "id": "ver18",
+      "infinitif_fr": "nager",
+      "infinitif_lb_latin": "esba7",
+      "infinitif_lb_arabic": "",
+      "theme": "quotidien",
+      "conjugaison": {
+        "je suis en train de nager": "3am esba7"
+      }
+    },
+    {
+      "id": "ver19",
+      "infinitif_fr": "monter à cheval",
+      "infinitif_lb_latin": "erkab khel",
+      "infinitif_lb_arabic": "",
+      "theme": "quotidien",
+      "conjugaison": {
+        "je suis en train de monter à cheval": "3am erkab khel"
+      }
+    },
+    {
+      "id": "ver20",
+      "infinitif_fr": "s'entraîner / faire du sport",
+      "infinitif_lb_latin": "etmarran",
+      "infinitif_lb_arabic": "",
+      "theme": "quotidien",
+      "conjugaison": {
+        "je suis en train de m'entraîner": "3am etmarran"
+      }
+    },
+    {
+      "id": "ver21",
+      "infinitif_fr": "avoir",
+      "infinitif_lb_latin": "3and-",
+      "infinitif_lb_arabic": "",
+      "theme": "quotidien",
+      "conjugaison": {
+        "j'ai": "Ana 3ande",
+        "tu as": "Enta 3andak"
+      }
     }
   ],
   "chiffres": [
